@@ -71,3 +71,11 @@
 ## 15-16
 ![alt text](images/image15.png)
 - появился только что сделанный нами коммит
+
+## 17-19
+![alt text](images/image16.png)
+![alt text](images/image17.png)
+- добавил в файл sort.c print("hello git\n");
+- git status показывает нам непроиндексированные изменения
+
+## 20-23
