@@ -28,6 +28,5 @@ int main() {
         printf("%d ", arr[i]);
     }
     printf("\n");
-    printf("hello git\n");
     return 0;
 }
