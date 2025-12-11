@@ -22,22 +22,13 @@
 ## 13-17
 
 ![alt text](images/image5.png)
-<<<<<<< HEAD
-- В git status теперь появились непроиндесированные изменения (добаленный второй комментарий в sort.c) и то что ветка main опережает origin/main на 2 коммита
-- git log также указывает нам на это и показывает историю наших коммитов с их описанием
-=======
 - в git status теперь показывает непроиндесированные изменения (второй комментарий в sort.c) и то что ветка main опережает origin/main на 2 коммита
->>>>>>> main
 
 # Ветки
 
 ## 1-5
 
 ![alt text](images/image6.png)
-<<<<<<< HEAD
-- команда git checkout -b создает новую ветку и переходит на нее, а git status и git branch показывает что мы находимся на новой ветке
-
-=======
 - команда git checkout -b создает новую ветку и переключается на нее, а git status и git branch показывают нам что мы находимся на ветке mybranch
 
 ## 6-10
@@ -88,9 +79,6 @@
 - git status показывает нам непроиндексированные изменения
 
 ## 20-23
-<<<<<<< HEAD
->>>>>>> main
-=======
 ![alt text](images/image18.png)
 ![alt text](images/image19.png)
 - после использования git restore файл sort.c вернулся до состояния добавления printf("hello git\n");
@@ -99,4 +87,19 @@
 # Ветки и ff-merge
 
 ## 1-5
->>>>>>> main
+![alt text](images/image20.png)
+- создал новый файл по заданию и добавил туда строку hello
+- создал новую ветку и перешел в нее, с помощью git status видим что нет изменений
+
+## 6-9
+![alt text](images/image21.png)
+- git branch показывает нам все ветки и выдялет ту на которой мы находимся
+- git log --oneline --graph --all выводит все наше дерево коммитов 
+
+## 10-12
+![alt text](images/image22.png)
+![alt text](images/image23.png)
+- cat в ветке main выводит HELLO, а git diff показывает разницу написания  hello/HELLO в зависимости от ветки
+
+## 13-19
+![alt text](images/image24.png)
