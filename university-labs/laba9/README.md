@@ -53,3 +53,7 @@
 ![alt text](images/image10.png)
 - git diff --staged пустой тк в стедже ничего нет
 - git diff показывает изменения в файле
+
+## 5-7
+![alt text](images/image11.png)
+- после использования команды git diff мы ничего не видим,а git diff --staged указывает на проиндексированные изменения которые до этого были в git diff
