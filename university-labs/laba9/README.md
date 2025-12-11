@@ -45,3 +45,11 @@
 ## 15-17
 ![alt text](images/image9.png)
 - git diff показал разницу между двумя ветками
+
+
+# Оценка 4
+
+## 1-4
+![alt text](images/image10.png)
+- git diff --staged пустой тк в стедже ничего нет
+- git diff показывает изменения в файле
