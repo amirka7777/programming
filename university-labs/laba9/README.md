@@ -79,3 +79,11 @@
 - git status показывает нам непроиндексированные изменения
 
 ## 20-23
+![alt text](images/image18.png)
+![alt text](images/image19.png)
+- после использования git restore файл sort.c вернулся до состояния добавления printf("hello git\n");
+- git status говорит об отсутсвии изменений
+
+# Ветки и ff-merge
+
+## 1-5
