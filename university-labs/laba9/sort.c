@@ -1,4 +1,4 @@
-// комментарий для гитхаба
+// комментарий для гитхаба12
 #include <stdio.h>
 
 void selectionSort(int arr[], int n) {
