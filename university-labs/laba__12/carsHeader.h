@@ -1,7 +1,7 @@
 #ifndef _CARS_FUNCTION_H
 #define _CARS_FUNCTION_H
 
-#define N 10000
+#define N 5
 
 
 typedef struct {

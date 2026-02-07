@@ -31,5 +31,15 @@ int main() {
 
     double total_seconds = seconds + microSeconds / 1000000.0;
 
+
     printf("время выполнения функции (с): %.5f \n", total_seconds);
+
+    printf("\n");
+    printf("размер данных:\n");
+
+    size_t one_car = sizeof(Cars);
+    size_t total_carsArray = sizeof(carsArray);
+
+    printf("размер одной структуры: %zu байт\n", one_car);
+    printf("размер всей структуры: %zu байт\n", total_carsArray);
 }
