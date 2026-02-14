@@ -3,6 +3,7 @@
 ![alt text](png/image.png)
 ![alt text](png/image1.png)
 ![alt text](png/image3.png)
+![alt text](png/image6.png)
 
 
 ## собрал статическую библиотеку:

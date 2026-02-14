@@ -16,14 +16,14 @@ int main() {
     printf("\n");
 
     printf("массив после сортировки по году выпуска:\n");
-    bubbleSort(carsArray);
+    bubbleSort(carsArray, compare);
     printArray(carsArray);
     printf("\n");
 
     printf("подсчет время выполнения сортировки:\n");
     gettimeofday(&start, NULL);
 
-    bubbleSort(carsArray);
+    bubbleSort(carsArray, compare);
 
     gettimeofday(&end, NULL);
     seconds = end.tv_sec - start.tv_sec;

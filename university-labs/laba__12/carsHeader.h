@@ -13,9 +13,10 @@ typedef struct {
 
 } Cars;
 
+int compare(Cars a, Cars b);
 void ArrayFilling(Cars arr[]);
 void printArray(Cars carsArray[]);
-void bubbleSort(Cars arrayCars[]);
+void bubbleSort(Cars arrayCars[], int (*comapre)(Cars, Cars));
 
 
 

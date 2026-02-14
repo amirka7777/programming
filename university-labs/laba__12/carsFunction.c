@@ -39,11 +39,20 @@ void printArray(Cars carsArray[]) {
 }
 
 
-void bubbleSort(Cars arrayCars[]) {
+
+
+
+int compare(Cars a, Cars b) {
+    return a.year - b.year;
+}
+
+
+
+void bubbleSort(Cars arrayCars[], int (*compare)(Cars, Cars)) {
 
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N - i - 1; j++) {
-            if (arrayCars[j].year > arrayCars[j + 1].year) {
+            if (compare(arrayCars[j], arrayCars[j + 1]) > 0) {
                 Cars temp = arrayCars[j];
                 arrayCars[j] = arrayCars[j + 1];
                 arrayCars[j + 1] = temp;
