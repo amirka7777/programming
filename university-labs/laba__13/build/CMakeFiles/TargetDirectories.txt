@@ -1,0 +1,4 @@
+/home/amir/programming/university-labs/laba__13/build/CMakeFiles/cars_lib.dir
+/home/amir/programming/university-labs/laba__13/build/CMakeFiles/program.dir
+/home/amir/programming/university-labs/laba__13/build/CMakeFiles/edit_cache.dir
+/home/amir/programming/university-labs/laba__13/build/CMakeFiles/rebuild_cache.dir

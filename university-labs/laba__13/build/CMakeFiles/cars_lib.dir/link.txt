@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libcars_lib.so -o libcars_lib.so CMakeFiles/cars_lib.dir/src/carsFunction.c.o 

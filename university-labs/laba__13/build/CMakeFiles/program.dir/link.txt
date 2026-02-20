@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/program.dir/src/main.c.o -o program  -Wl,-rpath,/home/amir/programming/university-labs/laba__13/build libcars_lib.so 
