@@ -1,3 +1,3 @@
 # Отладчик
 
-![alt text](img/image.png)
+![alt text](pictures/image.png)
