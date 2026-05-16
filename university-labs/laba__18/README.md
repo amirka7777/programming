@@ -6,4 +6,4 @@
 ## под тест я взял функцию [Фибоначчи](fibonacci.go)
 ## Фреймворк - testify
 
-![alt text](/pictures/images.jpg)
+![alt text](pictures/image.png)
